@@ -1,0 +1,8 @@
+1) post-order: Left-Right-Center
+   pre-order: Center-Left-Right
+   in-order: Left-Center-Right
+
+2) Traversal: non-recursion DFS: stack
+                            BFS: queue
+
+3) Divide-conquer: has return value.
