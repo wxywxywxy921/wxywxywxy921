@@ -4,35 +4,35 @@ public:
    * @param nums: A list of integers
    * @return: A integer indicate the sum of max subarray
    */
-  int maxSubArray(vector<int> nums) {
+  int minSubArray(vector<int> nums) {
     // write your code here
         
     if(!nums.size())
       return 0;
            
     int i;
-    int local_max, global_max;
+    int local_min, global_min;
         
-    local_max = 0;
-    global_max = -9999999;
+    local_min = 0;
+    global_min = 9999999;
         
     for(i = 0; i < nums.size(); i++)
     {
       if(i == 0)
       {
-        local_max = nums[0];
+        local_min = nums[0];
       }
       else
       {
-        local_max = max(local_max + nums[i], nums[i]);
+        local_min = min(local_min + nums[i], nums[i]);
       }
             
-      if(local_max > global_max)
+      if(local_min < global_min)
       {
-        global_max = local_max;
+        global_min = local_min;
       }
     }
         
-    return global_max;
+    return global_min;
   }
 };

@@ -6,3 +6,7 @@
                             BFS: queue
 
 3) Divide-conquer: has return value.
+
+4) balanced tree: the height diff for the left and right are less than one
+   complete tree: A complete binary tree is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible
+   full tree:     is a tree in which every node other than the leaves has two children

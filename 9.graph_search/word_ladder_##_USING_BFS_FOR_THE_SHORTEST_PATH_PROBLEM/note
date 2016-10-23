@@ -1,0 +1,8 @@
+two solutions:
+
+1) iterate the dictionary;
+2) iterate the 26 characters;
+
+depending on the size of the dict.
+
+Remember to use the BFS for the shortest path problems.

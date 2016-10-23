@@ -1,0 +1,3 @@
+min heap or max heap.
+
+A priority queue is a container adaptor that provides constant time lookup of the largest (by default) element, at the expense of logarithmic insertion and extraction.
